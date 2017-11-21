@@ -1,0 +1,64 @@
+*.{
+    box-sizing: border-box;
+}
+
+.header{
+    padding:10px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header h1{
+    
+}
+
+.inner{
+    width:1000px;
+    padding 10px;
+  
+}
+.editor-box{
+    padding:15px;
+    border:1px solid #e5e5e5;
+    position:relative;
+}
+li{
+    list-style: none;
+    padding-bottom:10px;
+}
+.editor-box input[type=text]{
+    width:500px;
+}
+.file{
+    
+}
+.file li{
+    float:left;
+    padding-right:15px;
+}
+.file a{
+    text-decoration: none;
+    color: black;
+}
+.file ul{
+    display: inline-block;
+    position:absolute;
+    left:90px
+}
+.writing{
+    margin-top:30px;
+}
+.writing textarea{
+    width:95%;
+    height:inherit;
+}
+input[type=submit]{
+    display:block;
+    margin: 0 auto;
+    margin-top: 40px;
+    width:200px;
+    height:50px;
+    border-radius: 15px;
+    background-color: #00cc00;
+    color:white;
+    font-size: 20pt;
+}

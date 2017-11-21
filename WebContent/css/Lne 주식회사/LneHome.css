@@ -1,0 +1,96 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+*.{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    font-family: "Nanum Gothic", sans-serif;
+}
+.HeadUp{
+    margin-top:0;
+}
+.inner{
+    position:relative;
+    width:1100px;
+    padding:10px 0;
+    margin:0 auto;
+}
+.search{
+  display:flex;
+    justify-content: flex-end
+    
+}
+.HeadUp a{
+    text-decoration: none;
+    color:black;
+}
+.HeadUp ul{
+    margin-right:17px;
+}
+.HeadUp li{
+    list-style: none;
+    float:left;
+    padding-left:10px;
+    font-size: 14px;
+    
+}
+.HeadUp input[type=text]{
+    border-style: solid ;
+    border-color:#c9c9c9;
+    height:23px;
+    width:130px;
+    margin-bottom:px;
+}
+.search-window{
+    position:relative;
+    top:12px;
+    right:0;
+}
+.search-window a{
+    position:absolute;
+    right:0;
+}
+.HeadDown ul{
+    float:right
+}
+.HeadDown li{
+    list-style: none;
+    float:left;
+    padding-left:70px;
+}
+.HeadDown a{
+    text-decoration: none;
+    color:#8a7473;
+    font-weight: 600;
+}
+.main{
+    padding:180px 0;
+    background:url("image/main_bg%20(1).jpg") ;
+    background-size:100% 100%; 
+}
+.banner{
+    
+    height:100%;
+}
+img{
+    vertical-align: middle;
+}
+.footer{
+    background-color: #215a98;
+    padding-top:15px;
+    padding-bottom:200px;
+}
+
+.footer p{
+    display:inline-block;
+    color:white;
+    font-weight: 300px;
+    font-size:10px
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    padding:10px;
+    border-style:solid;
+    float:right
+}

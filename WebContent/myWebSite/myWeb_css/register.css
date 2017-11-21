@@ -1,0 +1,58 @@
+.header h1{
+    display:block;
+    text-align: center;
+    margin-top:60px;
+   
+}
+
+.header a{
+    text-decoration: none;
+     color: #1aff1a;
+    font-size:50pt;
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.container{
+    text-align: center;
+    position:relative;
+}
+.container a{
+    text-decoration: none;
+     color: black;
+    font-size:13pt;
+}
+.input-row{
+  text-align: ceter;
+    margin:  auto 0;
+    padding: 10px;
+}
+input[type=text],input[type=password],select{
+    height:40px;
+    width:400px;
+    outline-color: #1aff1a;
+    outline-width: thin;
+    border-radius: 10px;
+    margin-left: 20px;
+    
+}
+.Label{
+    display:inline-block;
+    float:left;
+    width:0px;
+    position:absolute;
+}
+.form{
+    display:inline-block;
+}
+
+input[type=submit]{
+    display:block;
+    margin: 0 auto;
+    margin-top: 20px;
+    width:400px;
+    height:40px;
+    border-radius: 15px;
+    background-color: #00cc00;
+    color:white;
+    font-size: 20pt;
+}

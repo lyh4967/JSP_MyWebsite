@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: #fff;
+    
+}
+
+@media screen and(max-width:760px){
+    body{
+        background-color: green;
+    }
+}
+@media screen and(min-width:500px) and(max-width:759px){
+    body{
+        background-color: greenyellow;
+    }
+}

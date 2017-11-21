@@ -1,0 +1,56 @@
+.header h1{
+    display:block;
+    text-align: center;
+    margin-top:60px;
+   
+}
+
+.header a{
+    text-decoration: none;
+     color: #1aff1a;
+    font-size:50pt;
+}
+
+.container{
+    text-align: center;
+    position:relative;
+}
+.input-row{
+  text-align: center;
+    margin: 0 auto;
+   
+    padding: 15px;
+}
+input[type=text],input[type=password]{
+    height:50px;
+    width:400px;
+    outline-color: #1aff1a;
+    outline-width: thick;
+    border-radius: 10px;
+    
+}
+input[type=checkbox]{
+    width:15px;
+    height:15px;
+}
+.container a{
+    text-decoration: none;
+     color: black;
+    font-size:13pt;
+}
+#checkBox{
+    display:block;
+    position: absolute;
+    left:35%;
+}
+input[type=submit]{
+    display:block;
+    margin: 0 auto;
+    margin-top: 40px;
+    width:400px;
+    height:50px;
+    border-radius: 15px;
+    background-color: #00cc00;
+    color:white;
+    font-size: 20pt;
+}
